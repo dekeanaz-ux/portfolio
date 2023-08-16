@@ -1,0 +1,320 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+  body{
+    background-color: black;
+    padding: 30px 50px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+.wrapper{
+  width: 70%;
+  margin: auto;
+}
+.hero-wrapper{
+  height: 95vh;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul, li {
+  display: flex;
+  list-style: none;
+  margin: 10px 10px;
+  
+}
+nav, ul, li, a{
+  color: #ffff;
+  text-decoration: none;
+  font-size: 18px;
+ }
+
+
+.hero-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  height: 100%;
+  overflow: hidden;
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30%;
+  
+}
+.hero-text h1{
+  font-size: 4.2rem;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+  color: #ff004f;
+}
+.hero-text p{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  color: red;
+}
+.hero-text button{
+  background-color: #ccc;
+  border: 1px solid #4a4a4a;
+  padding: 1rem 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.hero-image{
+  background-image: url(/ombui.html/images/mypic3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 100px;
+  margin-right: 20px;
+  
+}
+
+  #about{
+    padding: 80px 0;
+    color: #ababab;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-co1-1{
+    flex-basis: 45%;
+    padding-top: 60px;
+    
+  }
+  .about-co1-1 h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #ffff;
+  }
+  
+ 
+  .about-co1-2{
+    flex-basis: 45%;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+  .about-co1-2 h1{
+    margin-top: 52px;
+  }
+ 
+ 
+  .sub-title{
+    font-size: 70px;
+    font-weight: 600;
+    color: #ffff;
+  }
+
+  .portforio{
+    padding: 50px 0;
+  
+  }
+  .Work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    
+  }
+  .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+     
+  }
+  .work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  .layer{
+    width: 100%;
+   height: 0;
+    background: linear-gradient(rgba(0,0,0,6),#f30651);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    color: #ff004f;
+    font-size: 13px;
+    transition: height 10s;
+  }
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .layer a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: #ff004f;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .work:hover img{
+    transform: scale(1.1);
+   }
+   .work:hover .layer{
+    height: 100%;
+   }
+   .btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+   }
+   .btn:hover{
+    background: #ff004f;
+   }
+ div img{
+  height: 250px;
+  width: 80%;
+ }
+ /*----------------------------------------contacts------------*/
+
+.contact-me{
+   
+  margin-top: 2rem;
+  text-align: center;
+}
+.contact-me small{
+  font-weight: 400px;
+  font-family: Lucida calligraphy;
+  font-size: 1rem;
+  color: #4a4a4a;
+  
+}
+.contact-me h1{
+  font-size: 1.9rem;
+  
+  
+  
+}
+.contact-me button{
+  background: transparent;
+  padding: 0rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  color: #4a4a4a;
+}
+.social-icons{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.social-icons ion-icon{
+  font-size: 1.8rem;
+  color: #ccc;
+  margin: 0rem 1.5rem;
+}
+.mobile{
+  margin: 2rem 0rem;
+}
+.copyright{
+ margin-bottom: 20rem;
+ text-align: center;
+ color: #ccc;
+ font-size: 1.2rem;
+}
+nav .fa-solid{
+  display: none;
+ }
+
+/*---------------------------css for small screens------------*/
+@media only screen and (max-width: 600px){
+  .bio-intro{
+    font-size: 30px;
+    padding-top: 10px;
+    margin: 10px 10px;
+  }
+  body{
+    padding: 0px 30px;
+  
+  }
+  
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+   }
+   nav ul{
+    background: #ff004f;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 300px;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 1s;
+    line-height: 10px;
+    
+   }
+   ul, li{
+    display: block;
+    margin: 25px;
+   }
+   nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+   }
+  .hero-grid{
+    padding-top: 30px;
+    padding-left: 2px;
+  }
+  .hero-image{
+    background-image: none;
+  }
+    .about-co1-1{
+    flex-basis: 80%;
+    padding-top: 0px;
+    margin-left: 40px;
+  }
+  .about-co1-2{
+    flex-basis: 80%;
+    margin-left: 40px;
+  }
+  .about-co1-2 h1{
+    flex-basis: 80%;
+    font-size: 40px;
+    margin-left: 40px;
+  }
+
+}

@@ -1,0 +1,243 @@
+
+body{
+ 
+  margin-top: 0;
+  margin-bottom: 100px;
+  background-color: rgb(185, 179, 179);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  overflow-x: auto;
+  }
+
+.ribon-content{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  column-gap: 20px;
+  vertical-align: top;
+  padding-top: 20px;
+  margin-left: 100px;
+  
+    
+}
+.ribbon-position{
+  position: fixed;
+}
+.text-deco{
+  padding-top: 50px;
+}
+.page1-image{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  padding-top: 50px;
+  }
+.image-homepage{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  border-radius: 200px;
+  margin-left: 50px;
+   
+}
+.about-button{
+  background-color: rgba(240, 37, 37, 0.89);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  font-weight: bold;
+  
+    }
+.mywork-button{
+  background-color: rgba(240, 37, 37, 0.89);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.15s, color 0.15s;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  font-weight: bold;
+  
+    }
+.contact-button{
+  background-color: rgba(240, 37, 37, 0.89);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.15s, color 0.15s;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  font-weight: bold;
+  
+    }
+    .about-button:hover{
+      opacity: 0.5;
+    }
+    
+     .about-button:active{
+      background-color: white;
+      color: black;
+      
+     }
+    .contact-button:hover{
+      opacity: 0.5;
+      
+     }
+     .contact-button:active{
+      background-color: white;
+      color: black;
+     }
+    .mywork-button:hover{
+      opacity: 0.5;
+      
+     }
+     .mywork-button:active{
+      background-color: white;
+      color: black;
+      
+     }
+ .head1-text{
+  background-image: url("../ombui.html/images/photo-1627584159474-a1bc658c9dbf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-bottom: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+ }
+.welcome-note{
+  padding-top: 70px;
+}
+.introduction-text{
+  
+ display: flex;
+ border: solid;
+ font-size: 15px;
+ color: white;
+ margin-top: 50px;
+ font-style: normal;
+ height: 300px;
+ width: 500px;
+
+}
+.head3{
+  font-weight: bold;
+  margin-top: 30px;
+}
+.contact-title{
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(12, 6, 6);
+  border-radius: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#contact-display{
+display: flex;
+cursor: pointer;
+padding-top: 20px;
+padding-bottom: 20px;
+border: solid;
+border-width: 2px;
+border-color: rgb(51, 47, 47);
+background-color: rgb(29, 29, 36);
+color: red;
+}
+.social-media-handles{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(241, 7, 7);
+
+
+}
+.twitter,.facebook,.linkedin,.whatsapp{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+.location{
+  text-align: center;
+}
+.contact-me{
+   
+  margin-top: 2rem;
+  text-align: center;
+}
+.contact-me small{
+  font-weight: 400px;
+  font-family: Lucida calligraphy;
+  font-size: 1rem;
+  color: #4a4a4a;
+  
+}
+.contact-me h1{
+  font-size: 1.9rem;
+  
+  
+  
+}
+.contact-me button{
+  background: transparent;
+  padding: 0rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  color: #4a4a4a;
+}
+.social-icons{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.social-icons ion-icon{
+  font-size: 1.8rem;
+  color: #ccc;
+  margin: 0rem 1.5rem;
+}
+.mobile{
+  margin: 2rem 0rem;
+}
+.copyright{
+ margin-bottom: 20rem;
+ text-align: center;
+ color: #ccc;
+ font-size: 1.2rem;
+}
